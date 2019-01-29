@@ -6,6 +6,11 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0F9DC04B21FF9B250067795E /* VectorController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F9DC04921FF9B250067795E /* VectorController.cpp */; };
+		0F9DC04D21FF9B340067795E /* VectorRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F9DC04C21FF9B340067795E /* VectorRunner.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		0F9DC03C21FF9A5E0067795E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +25,9 @@
 
 /* Begin PBXFileReference section */
 		0F9DC03E21FF9A5E0067795E /* VectorProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VectorProject; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F9DC04921FF9B250067795E /* VectorController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VectorController.cpp; sourceTree = "<group>"; };
+		0F9DC04A21FF9B250067795E /* VectorController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VectorController.hpp; sourceTree = "<group>"; };
+		0F9DC04C21FF9B340067795E /* VectorRunner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VectorRunner.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,19 @@
 		0F9DC04021FF9A5E0067795E /* VectorProject */ = {
 			isa = PBXGroup;
 			children = (
+				0F9DC04821FF9AE70067795E /* Controller  */,
 			);
 			path = VectorProject;
+			sourceTree = "<group>";
+		};
+		0F9DC04821FF9AE70067795E /* Controller  */ = {
+			isa = PBXGroup;
+			children = (
+				0F9DC04921FF9B250067795E /* VectorController.cpp */,
+				0F9DC04A21FF9B250067795E /* VectorController.hpp */,
+				0F9DC04C21FF9B340067795E /* VectorRunner.cpp */,
+			);
+			path = "Controller ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +131,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F9DC04D21FF9B340067795E /* VectorRunner.cpp in Sources */,
+				0F9DC04B21FF9B250067795E /* VectorController.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
